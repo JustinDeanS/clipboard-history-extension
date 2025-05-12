@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f9f9f9;
+  padding: 12px;
+  margin: 0;
+  width: 320px;
+  color: #333;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  color: #202124;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #155ab6;
+}
+
+#copyCurrent {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  margin: 0;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+li span {
+  font-size: 13px;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  flex: 1;
+  margin-right: 6px;
+  font-size: 12px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+li button:hover {
+  background-color: #d0d0d0;
+}
+
+li button:last-child {
+  margin-right: 0;
+  background-color: #f28b82;
+  color: #fff;
+}
+
+li button:last-child:hover {
+  background-color: #d93025;
+}
